@@ -1,0 +1,43 @@
+body{
+    background: rgb(74, 73, 75);
+    color: #ffffff;
+}
+#headerBanner {
+    position: absolute;
+    right: 16px;
+    padding: 30px;
+    text-align: right;
+    margin: 0px auto;
+    font-size: 22px;
+    word-spacing: 20px;
+    text-decoration: none;
+    a:link{
+        text-decoration: none;
+        color: #ffffff;
+    }
+    a:hover{
+        color: #1ed760;
+    }
+}
+.Top {
+   text-align: center;
+   letter-spacing: 1px;
+   font-size: 35px; 
+   padding-top: 8vh;
+   padding-bottom: 60px;
+}
+p {
+    font-size: 20px;
+    margin-top: -50px;
+}
+.Timeline{
+    font-size: 20px;
+    margin-left: 20px;
+    margin-right: 80px;
+}
+.info{
+    font-size: 25px;
+}
+b {
+    font-size: 30px;
+}

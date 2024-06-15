@@ -1,0 +1,52 @@
+body{
+    background: rgb(74, 73, 75);
+    color: #ffffff;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+#headerBanner {
+    position: absolute;
+    right: 16px;
+    padding: 30px;
+    text-align: right;
+    margin: 0px auto;
+    font-size: 22px;
+    word-spacing: 20px;
+    text-decoration: none;
+    a:link{
+        text-decoration: none;
+        color: #ffffff;
+    }
+    a:hover{
+        color: #1ed760;
+    }
+}
+
+
+.Top {
+   text-align: center;
+   letter-spacing: 3px;
+   font-size: 35px; 
+   padding-top: 8vh;
+   padding-bottom: 1px;
+}
+.About{
+    font-size: 25px;
+    letter-spacing: 2px;
+}
+.info{
+    font-size: 25px;
+}
+
+.github{
+    padding: 20px;
+}
+
+.linkedin{
+    padding: 20px;
+}
+.check_it{
+    font-size: 30px;
+    padding-top: 40px;
+}

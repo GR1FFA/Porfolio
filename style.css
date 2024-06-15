@@ -1,0 +1,106 @@
+
+body{
+    background: rgb(74, 73, 75);
+    height: 100vh;
+}
+.squares span{
+    position: fixed;
+    bottom: -180px; /*Hide where the squares will generate*/
+    height: 50px;
+    width: 50px;
+    z-index: -1;
+    background-color: #1ed760;
+    animation: animate 10s linear infinite;
+}
+/* All the squares */
+.squares span:nth-child(2){
+    left: 10%;
+    animation-delay: 3s;
+    width: 60px;
+    height: 60px;
+}
+.squares span:nth-child(3){
+    left: 20%;
+    animation-delay: 2s;
+}
+.squares span:nth-child(4){
+    left: 30%;
+    animation-delay: 5s;
+    width: 80px;
+    height: 80px;
+}
+.squares span:nth-child(5){
+    left: 40%;
+    animation-delay: 1s;
+}
+.squares span:nth-child(6){
+    left: 50%;
+    animation-delay: 7s;
+}
+.squares span:nth-child(7){
+    left: 60%;
+    animation-delay: 6s;
+    width: 100px;
+    height: 100px;
+}
+.squares span:nth-child(8){
+    left: 70%;
+    animation-delay: 8s;
+}
+.squares span:nth-child(9){
+    left: 80%;
+    animation-delay: 4s;
+}
+.squares span:nth-child(10){
+    left: 75%;
+    animation-delay: 2s;
+}
+.Top {
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 35px; 
+    padding-top: 13vh;
+    padding-bottom: 60px;
+    color: #ffffff;
+}
+/* Animations */
+@keyframes animate{
+    0%{
+        transform: translateY(0);
+        opacity: 1;
+    }
+    80%{
+        opacity: .7;
+    }
+    100%{
+        transform: translateY(-800px) rotate(-360deg);
+        opacity: 0;
+        color: none;
+    }
+}
+#headerBanner {
+    position: absolute;
+    right: 16px;
+    padding: 30px;
+    text-align: right;
+    margin: 0px auto;
+    font-size: 22px;
+    word-spacing: 20px;
+    text-decoration: none;
+    a:link{
+        text-decoration: none;
+        color: #ffffff;
+    }
+    a:hover{
+        color: #1ed760;
+    }
+}
+p {
+    font-size: 20px;
+    margin-top: -50px;
+    color: #ffffff;
+}
+body{
+    margin-left: 40px;
+    margin-right: 40px;
+}
